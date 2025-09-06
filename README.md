@@ -59,7 +59,7 @@ A strong UI/UX layer is where real innovation starts, and EditX makes sure the e
 ⚡ Getting Started
 
 # 1️⃣ Clone repo
-git clone https://github.com/your-username/EditX-UI.git
+git clone https://github.com/srinjoyee-dey/EditX-UI.git
 cd EditX-UI
 
 # 2️⃣ Install dependencies
@@ -116,4 +116,5 @@ This is the canvas of innovation – the frontend that powers everything behind 
 
 
 ---
+
 
