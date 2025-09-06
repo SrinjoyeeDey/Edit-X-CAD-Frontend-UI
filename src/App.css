@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+/* src/App.css */
+
+/* General Layout */
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Top Bar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.topbar h1 {
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.topbar-icons {
+  display: flex;
+  gap: 18px;
+  font-size: 18px;
+}
+
+.topbar-icons svg {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.topbar-icons svg:hover {
+  color: #4da6ff;
+}
+
+/* Main Area */
+.main {
+  flex: 1;
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 65px;
+  background: #222;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 15px 0;
+  gap: 25px;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar svg {
+  cursor: pointer;
+  transition: color 0.2s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar svg:hover {
+  color: #4da6ff;
+}
+
+/* Canvas Area */
+.canvas-area {
+  flex: 1;
+  background: #111;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Dotted Grid */
+.grid {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255,255,255,0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Crosshair Lines */
+.crosshair-x {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #555;
+}
+
+.crosshair-y {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: #555;
+}
+
+/* Status Bar */
+.statusbar {
+  background: #222;
+  padding: 5px 20px;
+  font-size: 14px;
+  border-top: 1px solid #333;
 }
