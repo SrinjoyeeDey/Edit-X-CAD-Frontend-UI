@@ -1,16 +1,9 @@
 # 🎨 EditX – The Frontend UI for Next-Gen CAD Editing
 
 [![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)](https://react.dev/)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 [![Status](https://img.shields.io/badge/Stage-UI%20Prototype-orange)]()
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)]()
-
-<!-- GitHub Repo Specific Badges -->
-![GitHub stars](https://img.shields.io/github/stars/your-username/EditX-UI?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/EditX-UI?style=social)
-![GitHub issues](https://img.shields.io/github/issues/your-username/EditX-UI)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/EditX-UI)
-
-
 
 ---
 
@@ -123,3 +116,4 @@ This is the canvas of innovation – the frontend that powers everything behind 
 
 
 ---
+
